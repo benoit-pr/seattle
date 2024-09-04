@@ -1,19 +1,30 @@
-# seattle
+# Building Energy Benchmarking Project
 
-Data :  '2016 Building Energy Benchmarking', collected by the city of Seattle (https://data.seattle.gov/Permitting/2016-Building-Energy-Benchmarking/2bpz-gwpy/about_data).
+## Data
 
-The goal of this project is to use the data collected to be able to predict the Energy Use of a building, and its greenhouse gases emissions.
-Those are the two targets.
+- **Dataset**: '2016 Building Energy Benchmarking'
+- **Source**: Collected by the city of Seattle
+- **Link**: [Seattle Data Portal](https://data.seattle.gov/Permitting/2016-Building-Energy-Benchmarking/2bpz-gwpy/about_data)
 
-Notebooks : 
+## Project Goal
 
-1_Cleaning : cleaning + analysis of the data
+The aim of this project is to predict:
+1. **Energy Use** of a building
+2. **Greenhouse Gas Emissions (GHG)**
 
-2_Modeling_EnergyUse             : different models are tried in this notebook, from simpler ones to more complex. The goal is to predict the target EnergyUSe
+## Notebooks
 
-3_Modeling_GHG                   : different models are tried in this notebook, from simpler ones to more complex. The goal is to predict the target GHGEmissions
+1. **1_Cleaning**:
+   - Tasks: Data cleaning and analysis
 
-4_Modeling_GHG_with_EnergyScore  : different approaches are tried in this notebook, from simpler ones to more complex. The goal is to predict the target GHGEmissions, by also taking into account the feature 'EnergyStarScore'.
+2. **2_Modeling_EnergyUse**:
+   - Tasks: Testing various models to predict **Energy Use**
 
+3. **3_Modeling_GHG**:
+   - Tasks: Testing various models to predict **GHG Emissions**
 
-Best predictions are found in Notebook 4.
+4. **4_Modeling_GHG_with_EnergyScore**:
+   - Tasks: Testing different approaches to predict **GHG Emissions**, incorporating the **EnergyStarScore** feature.
+
+**Note**: The best predictions are found in Notebook 4.
+
